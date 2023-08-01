@@ -40,6 +40,7 @@ def get_file_metadata(file_path):
             exif_data = get_exif_data(file_path)
             if exif_data:
                 print("\nEXIF Metadata:")
+                print("\nEXIF Metadata:")
                 for tag, value in exif_data.items():
                     print(f"{tag}: {value}")
 
